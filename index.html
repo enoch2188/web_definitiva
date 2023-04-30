@@ -8,8 +8,11 @@
     <meta name="description" content="Homenaje a el mas grande 10, JUAN ROMAN RIQUELME">
     <meta name="keywords" content="10 GENIO JUGADORAZO ARGENTINA ARGENTINO RIQUELME TORERO PANADERO BOCA BOCAJRS CLUB FUTBOL FOOTBALL">
     <title>Juan Roman Riquelme</title>
+    <!-- Link AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- LINK CSS -->
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
     <div class="grid">
@@ -38,13 +41,13 @@
             </nav>
         </header>
         <main>
-            <div class="imgTitulo">
+            <div class="imgTitulo" data-aos="fade-down">
                 <img src="img/formacionlibertadores.jpg" alt="Formacion Libertadores 2007" class="img-fluida">
             </div>
-            <div class="titulo">
+            <div class="titulo" data-aos="zoom-in-up">
                 <h1>Sitio Homenaje a Juan Roman Riquelme</h1>
             </div>
-            <div class="texto">
+            <div class="texto" data-aos="fade-up-right">
                 <p>Su nacimiento, curiosamente, tuvo lugar un día antes de la primera conquista argentina en una 
                     Copa Mundial de Fútbol.
                     De pequeño comenzó a relacionar su vida con el mundo futbolístico, siendo partícipe en 
@@ -53,7 +56,7 @@
                     Jorge Rodríguez, DT y formador de juveniles, fue nada menos que el descubridor de 
                     Juan Román Riquelme.</p>
             </div>
-            <div class="imgMain">
+            <div class="imgMain" data-aos="flip-left">
                 <img src="img/la10.jpg" alt="Roman" class="img-fluida">
             </div>
         </main>
@@ -69,5 +72,10 @@
             </div>
         </footer>
     </div>
+    <!-- SCRIPT AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
