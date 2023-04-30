@@ -1,0 +1,21 @@
+.grid{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:3, auto;
+}
+@media only screen and (min-width:1023px){
+    main{
+    display:grid;
+    grid-template-areas: 
+    "imgTitulo imgTitulo" 
+    "titulo titulo"
+    "texto texto"
+    "parrafo imgMain";
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: repeat(3, auto);
+    .imgTitulo{grid-area: imgTitulo;}
+    .titulo{grid-area: titulo;}
+    .texto{grid-area: parrafo;}
+    .imgMain{grid-area: imgMain;}
+    }
+}
