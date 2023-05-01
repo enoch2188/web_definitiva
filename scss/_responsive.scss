@@ -20,8 +20,9 @@
     }
 }
 
-// @media screen and (max-width: 767px) {
-//     .item {
-//       flex-basis: calc(50% - 10px);
-//     }
-//   }
+@media (max-width: 767px) {
+    .imgMain {
+        max-width: auto;
+        height: auto;
+    }
+}
