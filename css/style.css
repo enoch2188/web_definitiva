@@ -65,8 +65,9 @@ footer {
     align-items: center;
   }
 }
-footer {
-  width: 100%;
+.foot {
+  color: gray;
+  padding-left: 109px;
 }
 
 body {
@@ -81,10 +82,10 @@ body {
     font-size: 2.7rem;
   }
   p {
-    font-size: 2.4rem;
+    font-size: 2.1rem;
   }
   a {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -101,6 +102,16 @@ body {
     font-size: 1.4rem;
   }
 }
+.tituloBoots {
+  font-size: px40;
+  color: goldenrod;
+}
+
+.copy {
+  font-size: smaller;
+  padding-top: 150px;
+}
+
 header {
   background-image: linear-gradient(to bottom, goldenrod, white, transparent);
 }
