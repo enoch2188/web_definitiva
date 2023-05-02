@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows:3, auto;
+    // box-sizing: border-box;
+    // justify-content: center;
 }
 @media only screen and (min-width:1023px){
     main{
@@ -24,10 +26,25 @@
     .imgMain {
         max-width: auto;
         height: auto;
+        overflow: hidden;
     }
 }
 @media (max-width: 992px) {
     .navbar-brand {
       font-size: 1.2rem;
     }
+  }
+//   .imgmain {
+//     max-width: 50%; /* el ancho de la imagen */
+//     height: auto; /* altura automática */
+//     margin: 20px 0; /* separación entre la imagen y el texto */
+//   }
+
+main {
+    margin-top: auto; /* ajustar el margen superior según la altura del header */
+    height: auto; /* ajustar la altura según la altura del header y del footer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
