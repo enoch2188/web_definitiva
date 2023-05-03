@@ -22,7 +22,14 @@
     }
 }
 
-@media (max-width: 767px) {
+// agregue para arreglar el footer centrado
+@media (max-width: 768px) {
+  .foot{
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
     .imgMain {
         max-width: auto;
         height: auto;
@@ -40,11 +47,11 @@
 //     margin: 20px 0; /* separación entre la imagen y el texto */
 //   }
 
-main {
-    margin-top: auto; /* ajustar el margen superior según la altura del header */
-    height: auto; /* ajustar la altura según la altura del header y del footer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+// main {
+//     margin-top: auto; /* ajustar el margen superior según la altura del header */
+//     height: auto; /* ajustar la altura según la altura del header y del footer */
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+//   }

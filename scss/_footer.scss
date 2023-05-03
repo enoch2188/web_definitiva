@@ -3,13 +3,14 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 100%;
 }
 @media only screen and (max-width: 768px){
     footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
+  }   
 }
 .foot {
     color: gray;

@@ -1,6 +1,7 @@
 header{
     background-image: linear-gradient(to bottom, goldenrod, white, transparent);
-    nav{
+    nav{ 
+        font-size: larger; 
         padding:10px;
         ul{
             display: flex;
@@ -14,7 +15,7 @@ header{
                     &:hover{
                         color:blue;
                         background-color: goldenrod;
-                        border-radius: 15px;
+                        border-radius: 15px;               
                     }
                 }
             }
