@@ -24,6 +24,10 @@
   main .imgMain {
     grid-area: imgMain;
   }
+  main .foot {
+    color: gray;
+    padding-left: 109px;
+  }
 }
 @media (max-width: 768px) {
   .foot {
@@ -71,16 +75,12 @@ footer {
 
 @media only screen and (max-width: 768px) {
   footer {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    color: gray;
   }
 }
-.foot {
-  color: gray;
-  padding-left: 109px;
-}
-
 body {
   font-family: "Nunito Sans", sans-serif;
 }
@@ -96,8 +96,9 @@ body {
     font-size: 2.1rem;
   }
   a {
-    font-size: 2rem;
+    font-size: 1.4rem;
     text-decoration: none;
+    text-align: center;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -111,7 +112,7 @@ body {
     font-size: 1.6rem;
   }
   a {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     text-decoration: none;
   }
 }

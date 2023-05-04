@@ -5,14 +5,12 @@ footer {
     justify-content: space-between;
     max-width: 100%;
 }
+
 @media only screen and (max-width: 768px){
     footer{
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        color: gray;
   }   
-}
-.foot {
-    color: gray;
-    padding-left: 109px;
 }
