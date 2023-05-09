@@ -1,0 +1,5 @@
+.carousel-item img {
+  max-height: 300px; /* ajustar el valor según sea necesario */
+  object-fit: cover; /* escala la imagen para cubrir el contenedor */
+  object-position: center; /* centrar la imagen vertical y horizontalmente */
+}

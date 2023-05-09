@@ -50,13 +50,23 @@
   transform: translate(100px, 100px);
 }
 
-img-fluida {
+.carousel-item img {
+  width: 50%;
+  height: auto;
+}
+
+.img-fluida {
   width: 100%;
   height: auto;
 }
 
 img {
   border-radius: 20px;
+}
+
+.img-fluid {
+  height: 50px;
+  width: auto;
 }
 
 div.imgTitulo img {
