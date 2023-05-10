@@ -77,6 +77,11 @@ div.imgTitulo img {
   background-image: linear-gradient(to bottom, floralwhite, antiquewhite, white, goldenrod, transparent);
 }
 
+button {
+  color: white;
+  font-size: 20px;
+}
+
 footer {
   background-image: linear-gradient(to bottom, goldenrod, white, transparent);
   display: flex;
@@ -146,6 +151,11 @@ body {
 h5 {
   font-size: 26px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.textoConfirmacion {
+  color: white;
+  font-size: 20px;
 }
 
 header {
