@@ -50,7 +50,7 @@
   transform: translate(100px, 100px);
 }
 
-img-fluida {
+.img-fluida {
   width: 100%;
   height: auto;
 }
@@ -59,10 +59,18 @@ img {
   border-radius: 20px;
 }
 
+.cardEquipos {
+  background-color: grey;
+}
+
 div.imgTitulo img {
   width: 100%;
   height: 50vh;
   max-width: 100%;
+}
+
+.colorBody {
+  background-color: silver;
 }
 
 footer {
@@ -124,6 +132,15 @@ body {
 .copy {
   font-size: smaller;
   padding-top: 100px;
+}
+
+.card-text {
+  color: goldenrod;
+}
+
+h5 {
+  font-size: 26px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 header {
