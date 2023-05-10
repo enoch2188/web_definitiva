@@ -77,11 +77,6 @@ div.imgTitulo img {
   background-image: linear-gradient(to bottom, floralwhite, antiquewhite, white, goldenrod, transparent);
 }
 
-button {
-  color: white;
-  font-size: 20px;
-}
-
 footer {
   background-image: linear-gradient(to bottom, goldenrod, white, transparent);
   display: flex;
