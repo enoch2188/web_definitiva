@@ -64,7 +64,7 @@ img {
 }
 
 .cardEquipos {
-  background-color: dimgrey;
+  background-color: dimgray;
 }
 
 div.imgTitulo img {
@@ -129,8 +129,13 @@ body {
   }
 }
 .tituloBoots {
-  font-size: px40;
+  font-size: 28px;
   color: goldenrod;
+}
+
+.tituloAzul {
+  font-size: 40px;
+  color: blue;
 }
 
 .copy {

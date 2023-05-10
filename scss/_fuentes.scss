@@ -20,8 +20,12 @@ body{
     text-decoration: none}
 }
 .tituloBoots{
-    font-size: px40;
-    color: goldenrod;
+    font-size: 28px;
+    color: $goldenrod;
+}
+.tituloAzul {
+    font-size: 40px;
+    color: $tituloAzul;
 }
 .copy{
     font-size: smaller;
