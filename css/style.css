@@ -59,8 +59,12 @@ img {
   border-radius: 20px;
 }
 
+.imgEquipos {
+  block-size: 450px;
+}
+
 .cardEquipos {
-  background-color: grey;
+  background-color: dimgrey;
 }
 
 div.imgTitulo img {
@@ -70,7 +74,7 @@ div.imgTitulo img {
 }
 
 .colorBody {
-  background-color: silver;
+  background-image: linear-gradient(to bottom, floralwhite, antiquewhite, white, goldenrod, transparent);
 }
 
 footer {
@@ -132,10 +136,6 @@ body {
 .copy {
   font-size: smaller;
   padding-top: 100px;
-}
-
-.card-text {
-  color: goldenrod;
 }
 
 h5 {
